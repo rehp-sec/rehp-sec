@@ -1,3 +1,11 @@
-hola soy Raul Herrera y amo la ciberseguridad. Ire subiendo locas ideas funcionales que se me ocurren para aportar mi granito de arena con el mundo de la ciberseguridad.
+Este script en python te permitirá escanear costantemente tus segmentos IPs publicos cada un minuto para detectar cualquier puerto vulnerable expuesto. Adicionalmente te enviara un correo al destinatario indicado si detecta un puerto vulnerable expuesto.
 
-Hi, I'm Raul Herrera and I love cybersecurity. I will be uploading all the crazy functional ideas that I can think of to contribute my bit to the world of cybersecurity.
+Para utilizarlo debes editar el script y proporcionar el servidor SMTP deseado, junto con el usuario y contraseña.
+
+Finalmente par autilizarlo debes indicar el o los segmentos IPs publicos a escanear y el destinario del correo a quien les llegaran las notificaciones. Por ejemplo:
+
+python3 scan-vuln-ports.py 8.8.8.8 8.8.8.0/29 --destinatario test@test.cl
+
+
+Raúl Herrera P.
+Ingeniero en ciberseguridad
