@@ -67,8 +67,8 @@ def escanear_puertos(segmentos_ips, destinatario):
 
 if __name__ == "__main__":
     # Configura los argumentos de la línea de comandos
-    parser = argparse.ArgumentParser(description='Script para escanear puertos y detectar vulnerabilidades en una red local.')
-    parser.add_argument('segmentos_ips', nargs='+', help='Segmentos de IP o IPs a escanear en la red local (ejemplo: 192.168.1.0/24 10.0.0.1)')
+    parser = argparse.ArgumentParser(description='Script para escanear puertos y detectar vulnerabilidades.')
+    parser.add_argument('segmentos_ips', nargs='+', help='Segmentos de IP o IPs)
     parser.add_argument('--destinatario', required=True, help='Dirección de correo electrónico del destinatario')
     args = parser.parse_args()
 
